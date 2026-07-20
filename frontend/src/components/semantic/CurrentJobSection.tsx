@@ -10,7 +10,9 @@ interface CurrentJobSectionProps {
 export function CurrentJobSection({ currentJob }: CurrentJobSectionProps) {
   return (
     <SectionCard className="reveal-5">
-      <h2>Your Current Work</h2>
+      <div className="card-head">
+        <h2>Your Current Work</h2>
+      </div>
       {!currentJob ? <p className="empty-state">No submitted job yet.</p> : null}
       {currentJob ? (
         <div className="job-details-wrap">

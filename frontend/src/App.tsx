@@ -19,7 +19,7 @@ function AppPage() {
     <div className="app-shell">
       <div className="ambient-shape" aria-hidden="true" />
 
-      <TopBar session={state.session} />
+      <TopBar />
 
       <main className="content-wrap">
         <StatusPanel

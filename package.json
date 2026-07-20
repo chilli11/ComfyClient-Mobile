@@ -1,0 +1,19 @@
+{
+  "name": "comfyclient",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ComfyClient backend API",
+  "main": "server/app/createServer.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "check:services": "node -e \"require('./server/services/styleCatalogService'); require('./server/services/workflowTemplateService'); require('./server/services/jobService'); console.log('services ok');\""
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "form-data": "^4.0.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.5",
+    "ws": "^8.18.0"
+  }
+}

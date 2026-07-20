@@ -1,0 +1,308 @@
+[
+  {
+    "name": "3D Character",
+    "prompt": "3D toy, standing character, tiny, cute, soft lighting, pastel colors, skottie young, blender, pop surrealism, pbr",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_3D-Character_00001_.jpg"
+  },
+  {
+    "name": "Adorable",
+    "prompt": "Cute and adorable cartoon, fantasy, dreamlike, surrealism, super cute, trending on artstation",
+    "negative_prompt": "ugly",
+    "thumbnail": "thumbnails/sd-france_Adorable_00001_.jpg"
+  },
+  {
+    "name": "Anime Portrait",
+    "prompt": "portrait of an anime person, aesthetic, wlop, trending on artstation, deviantart, anime key visual, 8k uhd",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Anime-Portrait_00001_.jpg"
+  },
+  {
+    "name": "ArchViz",
+    "prompt": "by James McDonald and Joarc Architects, home, interior, octane render, deviantart, cinematic, key art, hyperrealism, sun light, sunrays, canon eos c 300, Æ’ 1.8, 35 mm, 8k",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_ArchViz_00001_.jpg"
+  },
+  {
+    "name": "Beautiful Portrait",
+    "prompt": "alluring portrait, intricate, highly detailed, digital painting, artstation, concept art, naughty, sharp focus, cinematic lighting, illustration, art by artgerm and greg rutkowski, alphonse mucha, cgsociety",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Beautiful-Portrait_00001_.jpg"
+  },
+  {
+    "name": "Building",
+    "prompt": "shot 35 mm, realism, octane render, 8k, trending on artstation, 35 mm camera, unreal engine, hyper detailed, photo-realistic maximum detail, volumetric light, realistic matte painting, hyper photorealistic, trending on artstation, ultra-detailed, realis",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Building_00001_.jpg"
+  },
+  {
+    "name": "Caricature",
+    "prompt": "Cartoon caricature realistic, cute as a pixar disney character caricature cute full body from up 2009 unreal engine octane render 3d render photorealistic",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Caricature_00001_.jpg"
+  },
+  {
+    "name": "CGI Character",
+    "prompt": "portrait of a CGI animation character, magical background, bright natural lighing, backlighting, professional studio quality, looking at camera, large round cute detailed eyes, detailed, cute, adorable, intricately detailed, fantasy art, digital painting",
+    "negative_prompt": "Blurry, Blur, Grainy, Oversaturated, Tiling, Draft, Out of frame, Out of Focus, Cut off, Cropped image, Text, Signature, Watermark, Low quality, Bad quality, Low res, Plastic, Ugly, Bad anatomy, Deformed, Disfigured, Two heads, Two faces, Long neck",
+    "thumbnail": "thumbnails/sd-france_CGI-Character_00001_.jpg"
+  },
+  {
+    "name": "Comic Art",
+    "prompt": "Retro style artwork, comic book art, high details, comic book cover, symmetrical, vibrant colors",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Comic-Art_00001_.jpg"
+  },
+  {
+    "name": "Control Room",
+    "prompt": "steampunk happy Funny cartoonish at a complex nuclear control room, by Gediminas Pranckevicius H 704, machinarium style, intricate",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Control-Room_00001_.jpg"
+  },
+  {
+    "name": "Cute Creature",
+    "prompt": "cute cute cute creature, an illustration by esao andrews, cyril rolando and goro fujita, deviantart, fantasy art, storybook illustration, oil on canvas",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Cute-Creature_00001_.jpg"
+  },
+  {
+    "name": "Cute Kawaii",
+    "prompt": "cute, tiny, little chibi, kawai, furry, great face expression, dynamic pose, trending on artstation, cinematic, hyper realism, high detail, 8k, 8mm, octane render, bokeh, artstation, detailed, character design by mark ryden and pixar",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Cute-Kawaii_00001_.jpg"
+  },
+  {
+    "name": "CyberPunk",
+    "prompt": "cyberpunk, in heavy raining futuristic tokyo rooftop cyberpunk night, sci-fi, fantasy, intricate, very very beautiful, elegant, neon light, highly detailed, digital painting, artstation, concept art, soft light, hdri, smooth, sharp focus, illustration,",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_CyberPunk_00001_.jpg"
+  },
+  {
+    "name": "Dark",
+    "prompt": "Style of stephen gammell, watercolors, black and white, swamp, shadowy creatures, dripping, infected",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Dark_00001_.jpg"
+  },
+  {
+    "name": "Dataviz",
+    "prompt": "polygonal, hologram,orthographic projection lines,axis, blueprint, dataviz, infographic,tron, minority report interface,vaporwave, synthwave",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Dataviz_00001_.jpg"
+  },
+  {
+    "name": "Digital Art",
+    "prompt": "intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by wlop, charlie bowater and alexandra fomina",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Digital-Art_00001_.jpg"
+  },
+  {
+    "name": "Digital Portrait",
+    "prompt": "digital painting portrait, natural lighting, in the style of pixar, trending on artstation, sharp, focus art by Arthur Streeton and BoÅ¾idar Jakac",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Digital-Portrait_00001_.jpg"
+  },
+  {
+    "name": "Dramatic",
+    "prompt": "Wide angle, chaotic cabin in background. vibrant, photorealistic, realistic, dramatic, dark, sharp focus, 8k.",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Dramatic_00001_.jpg"
+  },
+  {
+    "name": "Concept Drawing",
+    "prompt": "drawing made by Yoji Shinkawa, highly detailed, trending on Artstation, concept art",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Concept-Drawing_00001_.jpg"
+  },
+  {
+    "name": "Drawing",
+    "prompt": "cute, funny, centered, award winning watercolor pen illustration, detailed, disney, isometric illustration, drawing, by Stephen Hillenburg, Matt Groening, Albert Uderzo",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Drawing_00001_.jpg"
+  },
+  {
+    "name": "Fashion",
+    "prompt": "photograph of a Fashion model, full body, highly detailed and intricate, golden ratio, vibrant colors, hyper maximalist, futuristic, city background, luxury, elite, cinematic, fashion, depth of field, colorful, glow, trending on artstation, ultra high d",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Fashion_00001_.jpg"
+  },
+  {
+    "name": "Figurine",
+    "prompt": "plastic funky pop figurine, product, studio shot, plain background, diffused lighting, centered",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Figurine_00001_.jpg"
+  },
+  {
+    "name": "Horror",
+    "prompt": "dark  themed background. very dark and scary horror vibes. hyper intricate details. purple, red, white colors. hyperrealistic artwork style. scary horror metal music vibe. godrays, gorgeous, amazing, intricate, highly detailed, digital painting, artstatio",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Horror_00001_.jpg"
+  },
+  {
+    "name": "Illustration",
+    "prompt": "illustration, fisheye lens, high contrast, highly detailed, sharp focus, digital painting, 3 d art, illustration, trending on artstation",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Illustration_00001_.jpg"
+  },
+  {
+    "name": "Isometric",
+    "prompt": "Detailed isometric render, unreal engine voxel render, video game, very cozy, nostalgia, c4d render, ultra detailed, octane render, volumetric lighting, 8k post-production isometric, isometric render, tiltshift",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Isometric_00001_.jpg"
+  },
+  {
+    "name": "Logo",
+    "prompt": "2d vector illustration, emblem logo, 2d flat, centered, illustrator, symetrical, victory, 2D team logo, company logo design",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Logo_00001_.jpg"
+  },
+  {
+    "name": "Low Poly",
+    "prompt": "Low poly character, 3d isometric render, plain background, unity, kawaii, cute, blender, polycount",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Low-Poly_00001_.jpg"
+  },
+  {
+    "name": "Needle Felted",
+    "prompt": "3D Felt fiber toy, made from Felt fibers, Tiny 3D render, trending on cgsociety, maya, octane render, made of yarn, Cute",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Needle-Felted_00001_.jpg"
+  },
+  {
+    "name": "Negative prompt",
+    "prompt": "",
+    "negative_prompt": "Blurry, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, Low quality, Bad quality, Long neck",
+    "thumbnail": "thumbnails/sd-france_Negative-prompt_00001_.jpg"
+  },
+  {
+    "name": "Nightmare",
+    "prompt": "nightmare by tim burton, monster dreams, v-ray octane, highly detailed by artgem, art, trending artstation, blender, vivid color, steampunk, messi, cinematic light, alexa, ultra primme",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Nightmare_00001_.jpg"
+  },
+  {
+    "name": "Oil Painting",
+    "prompt": "oil painting from studio ghibli film, by noriyuki morimoto, digital artist, bright and bold colors, expansive sky, sense of adventure, epic scope studio ghibli",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Oil-Painting_00001_.jpg"
+  },
+  {
+    "name": "Origami",
+    "prompt": "origami style, paper sticker, studio lighting, plain background, pastel colors, papercraft",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Origami_00001_.jpg"
+  },
+  {
+    "name": "Pencil Sketch",
+    "prompt": "Hyperrealist pencil sketch drawing, black and white painting, fantasy art, photo realistic, dynamic lighting, artstation, poster, volumetric lighting, very detailed, 4k, da vinci style made with a charcoal pencil",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Pencil-Sketch_00001_.jpg"
+  },
+  {
+    "name": "Photograph",
+    "prompt": "high quality photography, 3 point lighting, flash with softbox, 4k, Canon EOS R3, hdr, smooth, sharp focus, high resolution, award winning photo, 80mm, f2.8, bokeh",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Photograph_00001_.jpg"
+  },
+  {
+    "name": "Pixar",
+    "prompt": "animation pixar style, pendleton ward, magali villeneuve, artgerm, rob rey and kentaro miura style, golden ratio, behance, trending on art station",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Pixar_00001_.jpg"
+  },
+  {
+    "name": "Postapocalyptic",
+    "prompt": "fog, animals, birds, deer, bunny, postapocalyptic, overgrown with plant life and ivy, artgerm, yoshitaka amano, gothic interior, 8k, octane render, unreal engine",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Postapocalyptic_00001_.jpg"
+  },
+  {
+    "name": "Poster Illustration",
+    "prompt": "official fanart behance hd by jesper ejsing, by rhads, makoto shinkai and lois van baarle, ilya kuvshinov, rossdraws global illumination",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Poster-Illustration_00001_.jpg"
+  },
+  {
+    "name": "Psycho",
+    "prompt": "anthropomorphic, beautiful, borderlands 3 psycho portrait, colourful vector, graphic novel, grunge",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Psycho_00001_.jpg"
+  },
+  {
+    "name": "Punky",
+    "prompt": "in a punk style, piercings, tatoos, trash, garbages, color paint splats, coloured spoils, dust and scratches, punk crete, rainbow coloured hairs,synthwave,dark mood lighting",
+    "negative_prompt": "ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, extra limbs, disfigured, deformed, body out of frame, bad anatomy, watermark, signature, cut off, low contrast, underexposed, overexposed, bad art, beginner, amateur, di",
+    "thumbnail": "thumbnails/sd-france_Punky_00001_.jpg"
+  },
+  {
+    "name": "Realistic Anime Face",
+    "prompt": "Closeup face portrait, smooth soft skin, beautiful eyes, intricate colored hair, symmetrical, anime wide eyes, soft lighting, detailed face, by makoto shinkai, stanley artgerm lau, wlop, rossdraws, concept art, digital painting",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Realistic-Anime-Face_00001_.jpg"
+  },
+  {
+    "name": "Realistic Shaded",
+    "prompt": "fine-face, realistic shaded perfect face, fine details. Night setting. Very anime style. Realistic shaded lighting poster by Ilya Kuvshinov katsuhiro, magali villeneuve, artgerm, Jeremy Lipkin and Michael Garmash, Rob Rey and KentarÃµ Miura style, trendin",
+    "negative_prompt": "blurry",
+    "thumbnail": "thumbnails/sd-france_Realistic-Shaded_00001_.jpg"
+  },
+  {
+    "name": "Render 3D",
+    "prompt": "highly detailed, CG render, octane, bokeh, 4k, 8k, 8mm, unreal engine 3d",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Render-3D_00001_.jpg"
+  },
+  {
+    "name": "Robotize",
+    "prompt": "steampunk robot happy Funny cartoonish, by Gediminas Pranckevicius",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Robotize_00001_.jpg"
+  },
+  {
+    "name": "Schematic",
+    "prompt": "23rd century scientific schematics, blueprint, hyperdetailed vector technical documents, callouts, legend, patent registry",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Schematic_00001_.jpg"
+  },
+  {
+    "name": "Sticker",
+    "prompt": "Sticker, Cute sticker, Kawaii sticker, die-cut, plain background, illustration minimalism, vector, pastel colors, kawaii",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Sticker_00001_.jpg"
+  },
+  {
+    "name": "Stuffed Plush",
+    "prompt": "kawaii plush toy, very cute, visible stitch line, soft lighting, vibrant, studio lighting, PBR, realistic texture, smooth",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Stuffed-Plush_00001_.jpg"
+  },
+  {
+    "name": "Tokyo Background",
+    "prompt": "highly detailed matte painting of a suburban tokyo street with a bright shimmering sky by Studio Ghibli, Mokoto Shinkai, by Artgerm, by beeple, volumetric lighting, octane render, 4K resolution, trending on artstation, vivid colours",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Tokyo-Background_00001_.jpg"
+  },
+  {
+    "name": "Toon Monster",
+    "prompt": "cartoon monster, cute, big eyes, big mouth, art by gediminas pranckevicius and Alexander Jansson, pixar, centered, dramatic lighting, glowing light, simple solid background, no background, detailed face, cinematic, illustration, no gradient, trending on a",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Toon-Monster_00001_.jpg"
+  },
+  {
+    "name": "Typography",
+    "prompt": "typography by kaws, studio ghibli by tim hildebrandt, michael whelan, background environment. sharpen. an intricate, elegant, highly detailed digital painting, concept art, smooth",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Typography_00001_.jpg"
+  },
+  {
+    "name": "Warm Scene",
+    "prompt": "unreal engine, warm indoor lighting, arts station, detailed digital painting, cinematic, character design by mark ryden and pixar and hayao miyazaki, unreal 5, daz, hyperrealistic, octane rendering",
+    "negative_prompt": "",
+    "thumbnail": "thumbnails/sd-france_Warm-Scene_00001_.jpg"
+  },
+  {
+    "name": "Woolitize",
+    "prompt": "puppet,intricated wool material,elegant,highly detailed,patchwork,sewing thread,patches,fabric texture,knitting,badges,embroidery",
+    "negative_prompt": "needle",
+    "thumbnail": "thumbnails/sd-france_Woolitize_00001_.jpg"
+  }
+]

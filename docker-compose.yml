@@ -1,0 +1,34 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      COMFY_API_URL: http://host.docker.internal:8188
+      COMFY_WS_URL: ws://host.docker.internal:8188/ws
+      STYLE_ASSETS_DIR: /app/style-assets
+      UPLOADS_DIR: /data/uploads
+      GENERATED_DIR: /data/generated
+      THUMBNAILS_DIR: /data/thumbnails
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./storage:/data
+      - ./style-assets:/app/style-assets:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      VITE_API_BASE_URL: /api
+    ports:
+      - "4173:4173"
+    depends_on:
+      - backend
+    restart: unless-stopped

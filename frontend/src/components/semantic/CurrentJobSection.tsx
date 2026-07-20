@@ -1,6 +1,7 @@
 import { SectionCard } from '../../design-system/SectionCard';
 import { JobRecord } from '../../models/domain';
-import { JobDetails } from '../functional/JobDetails';
+import { JobMetadataAccordion } from '../functional/JobMetadataAccordion';
+import { JobResultPanel } from '../functional/JobResultPanel';
 
 interface CurrentJobSectionProps {
   currentJob: JobRecord | null;
@@ -9,8 +10,14 @@ interface CurrentJobSectionProps {
 export function CurrentJobSection({ currentJob }: CurrentJobSectionProps) {
   return (
     <SectionCard className="reveal-5">
-      <h2>4. Track Job</h2>
-      <JobDetails currentJob={currentJob} />
+      <h2>Your Current Work</h2>
+      {!currentJob ? <p className="empty-state">No submitted job yet.</p> : null}
+      {currentJob ? (
+        <div className="job-details-wrap">
+          <JobResultPanel currentJob={currentJob} />
+          <JobMetadataAccordion currentJob={currentJob} />
+        </div>
+      ) : null}
     </SectionCard>
   );
 }

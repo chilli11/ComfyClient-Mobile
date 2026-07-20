@@ -19,7 +19,7 @@ export function RecentJobsList({
   return (
     <>
       <div className="card-head">
-        <h2>Recent Jobs</h2>
+        <h2>Recent Mutations</h2>
         <button type="button" className="ghost-button" onClick={onRefresh} disabled={loadingRecent || !session.token}>
           {loadingRecent ? 'Refreshing...' : 'Refresh'}
         </button>

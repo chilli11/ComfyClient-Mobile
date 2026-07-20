@@ -366,6 +366,16 @@ h3 {
   gap: 8px;
 }
 
+.job-details-wrap {
+  display: grid;
+  gap: 12px;
+}
+
+.result-panel {
+  display: grid;
+  gap: 10px;
+}
+
 .result-hero-link {
   display: block;
 }
@@ -376,6 +386,49 @@ h3 {
   border-radius: 12px;
   border: 1px solid rgba(19, 32, 37, 0.12);
   background: rgba(19, 32, 37, 0.05);
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.result-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.job-details-accordion {
+  border: 1px solid rgba(19, 32, 37, 0.12);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.job-details-summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.job-details-summary::-webkit-details-marker {
+  display: none;
+}
+
+.job-details-accordion .job-details {
+  margin-top: 0;
+  border: 0;
+  border-top: 1px solid rgba(19, 32, 37, 0.08);
+  border-radius: 0;
+  background: transparent;
 }
 
 .generation-card {

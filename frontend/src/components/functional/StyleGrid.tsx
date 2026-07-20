@@ -18,7 +18,7 @@ export function StyleGrid({
   return (
     <>
       <div className="card-head">
-        <h2>3. Pick Style</h2>
+        <h2>Pick a Style</h2>
         {selectedStyleName ? <span className="selected-style">Selected: {selectedStyleName}</span> : null}
       </div>
       {loadingStyles ? <p className="empty-state">Loading styles...</p> : null}

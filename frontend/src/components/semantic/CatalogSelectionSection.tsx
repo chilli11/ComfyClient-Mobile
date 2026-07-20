@@ -12,7 +12,7 @@ interface CatalogSelectionSectionProps {
 export function CatalogSelectionSection(props: CatalogSelectionSectionProps) {
   return (
     <SectionCard className="reveal-3">
-      <h2>2. Choose Catalog</h2>
+      <h2>Choose Style Catalog</h2>
       <CatalogChips {...props} />
     </SectionCard>
   );

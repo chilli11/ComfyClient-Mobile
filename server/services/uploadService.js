@@ -9,10 +9,11 @@ const {
 } = require('../utils/imageUtils');
 
 class UploadService {
-  constructor({ uploadsDir, thumbnailsDir, uploadStore }) {
+  constructor({ uploadsDir, thumbnailsDir, uploadStore, comfyClient }) {
     this.uploadsDir = uploadsDir;
     this.thumbnailsDir = thumbnailsDir;
     this.uploadStore = uploadStore;
+    this.comfyClient = comfyClient;
   }
 
   ensureStorageDirs() {
@@ -41,6 +42,21 @@ class UploadService {
     await resizeIfNeeded(tempInputPath, outputPath);
     try { fs.unlinkSync(tempInputPath); } catch (e) {}
 
+    let comfyImage = null;
+    if (this.comfyClient) {
+      try {
+        const uploadResponse = await this.comfyClient.uploadImage(outputPath, storedFilename);
+        comfyImage = {
+          name: uploadResponse.name || storedFilename,
+          subfolder: uploadResponse.subfolder || '',
+          type: uploadResponse.type || 'input'
+        };
+      } catch (error) {
+        error.code = 'COMFY_UPLOAD_FAILED';
+        throw error;
+      }
+    }
+
     const thumbnailUrl = await generateThumbnailUrl(outputPath, storedFilename, this.thumbnailsDir);
     const uploadId = `upl_${crypto.randomUUID()}`;
     const resolvedSessionToken = sessionToken || `sess_${crypto.randomUUID()}`;
@@ -54,7 +70,8 @@ class UploadService {
       stored_filename: storedFilename,
       mime_type: 'image/jpeg',
       local_url: `/storage/uploads/${storedFilename}`,
-      thumbnail_url: thumbnailUrl
+      thumbnail_url: thumbnailUrl,
+      comfy_image: comfyImage
     });
 
     return upload;

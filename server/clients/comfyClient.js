@@ -1,3 +1,7 @@
+const fs = require('fs');
+const axios = require('axios');
+const FormData = require('form-data');
+
 class ComfyClient {
   constructor(comfyApiUrl) {
     this.comfyApiUrl = String(comfyApiUrl || '').replace(/\/$/, '');
@@ -38,8 +42,43 @@ class ComfyClient {
     return this.postJson('/prompt', promptPayload);
   }
 
+  async getPromptState() {
+    return this.getJson('/prompt');
+  }
+
+  async getQueueState() {
+    return this.getJson('/queue');
+  }
+
   async getHistory(promptId) {
     return this.getJson(`/history/${encodeURIComponent(promptId)}`);
+  }
+
+  async getViewImage({ filename, subfolder = '', type = 'output' }) {
+    const params = new URLSearchParams({ filename, type });
+    if (subfolder) {
+      params.set('subfolder', subfolder);
+    }
+
+    const response = await axios.get(`${this.comfyApiUrl}/view?${params.toString()}`, {
+      responseType: 'arraybuffer',
+      timeout: 30000
+    });
+
+    return Buffer.from(response.data);
+  }
+
+  async uploadImage(imagePath, filename) {
+    const form = new FormData();
+    form.append('image', fs.createReadStream(imagePath), { filename });
+
+    const response = await axios.post(`${this.comfyApiUrl}/upload/image`, form, {
+      headers: { ...form.getHeaders() },
+      maxBodyLength: Infinity,
+      timeout: 30000
+    });
+
+    return response.data || {};
   }
 }
 

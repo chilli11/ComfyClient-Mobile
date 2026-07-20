@@ -32,8 +32,8 @@ function setupJobsRoutes(app, jobService) {
     }
   });
 
-  app.get('/api/jobs/:jobId', (req, res) => {
-    const job = jobService.getJob(req.params.jobId);
+  app.get('/api/jobs/:jobId', async (req, res) => {
+    const job = await jobService.getJob(req.params.jobId);
     if (!job) {
       return res.status(404).json({ error: 'job_not_found' });
     }
@@ -41,13 +41,13 @@ function setupJobsRoutes(app, jobService) {
     return res.json(job);
   });
 
-  app.get('/api/jobs/recent', (req, res) => {
+  app.get('/api/jobs/recent', async (req, res) => {
     const sessionToken = req.query.session_token || req.header('x-session-token');
     if (!sessionToken) {
       return res.status(400).json({ error: 'missing_session_token' });
     }
 
-    const jobs = jobService.getRecentJobs(sessionToken);
+    const jobs = await jobService.getRecentJobs(sessionToken);
     return res.json({ session_token: sessionToken, jobs });
   });
 }

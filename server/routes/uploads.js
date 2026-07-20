@@ -19,6 +19,10 @@ function setupUploadsRoutes(app, uploadService) {
         return res.status(400).json({ error: 'missing_file' });
       }
 
+      if (error.code === 'COMFY_UPLOAD_FAILED') {
+        return res.status(502).json({ error: 'comfy_upload_failed', message: error.message || String(error) });
+      }
+
       console.error('Upload create failed:', error.message || error);
       return res.status(500).json({ error: 'upload_failed', message: error.message || String(error) });
     }

@@ -144,7 +144,8 @@ Success response example:
     "name": "3D Character"
   },
   "prompt": {
-    "upstream_prompt_id": "comfy_prompt_123"
+    "upstream_prompt_id": "comfy_prompt_123",
+    "upstream_client_id": "backend_generated_uuid"
   },
   "result": null,
   "error": null
@@ -154,8 +155,15 @@ Success response example:
 ### GET /api/jobs/{jobId}
 Fetch current state of a job.
 
+Behavior:
+- Reconciles non-terminal jobs against upstream Comfy execution updates/history before returning.
+- Completed jobs include backend-owned result URLs in `result`.
+
 ### GET /api/jobs/recent
 Return recent jobs for active session.
+
+Behavior:
+- Reconciles recent non-terminal jobs before response so manual refresh reflects upstream completion.
 
 Session token may be provided via:
 - query: `session_token`

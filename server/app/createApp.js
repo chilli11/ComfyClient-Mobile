@@ -29,7 +29,8 @@ function createApp() {
   const uploadService = new UploadService({
     uploadsDir: config.storage.uploadsDir,
     thumbnailsDir: config.storage.thumbnailsDir,
-    uploadStore
+    uploadStore,
+    comfyClient
   });
 
   const jobService = new JobService({
@@ -37,7 +38,10 @@ function createApp() {
     workflowTemplateService,
     styleCatalogService,
     uploadService,
-    jobStore
+    jobStore,
+    generatedDir: config.storage.generatedDir,
+    thumbnailsDir: config.storage.thumbnailsDir,
+    comfyWsUrl: config.comfyWsUrl
   });
 
   app.use('/storage/uploads', express.static(config.storage.uploadsDir));

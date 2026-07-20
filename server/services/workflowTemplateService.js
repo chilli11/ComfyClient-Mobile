@@ -1,6 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
+function toComfyStylesCatalog(catalogId) {
+  if (!catalogId) {
+    return catalogId;
+  }
+
+  return /_styles$/i.test(catalogId) ? catalogId : `${catalogId}_styles`;
+}
+
 class WorkflowTemplateService {
   constructor(templatePath) {
     this.templatePath = templatePath;
@@ -20,7 +28,7 @@ class WorkflowTemplateService {
 
     if (workflow['62'] && workflow['62'].inputs) {
       if (styleCatalogId) {
-        workflow['62'].inputs.styles = styleCatalogId;
+        workflow['62'].inputs.styles = toComfyStylesCatalog(styleCatalogId);
       }
       if (styleName) {
         workflow['62'].inputs.select_styles = styleName;
